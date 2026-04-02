@@ -1,0 +1,15 @@
+streamlit>=1.35.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+python-docx>=1.1.0
+pypdf>=4.0.0
+pdfminer.six>=20221105    # Fallback extracción PDF
+pypdfium2>=4.0.0          # Fallback PDF escaneados
+chardet>=5.0.0
+xlrd>=2.0.1
+
+# ── Proveedores IA ──────────────────────────
+# Instala SOLO el que vayas a usar:
+google-genai>=1.0.0          # Google Gemini (SDK nuevo — recomendado)
+anthropic>=0.25.0             # Anthropic Claude
+openai>=1.30.0                # OpenAI / ChatGPT
